@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #popup {
+    width: 300px;
+    padding: 10px;
+  }
+  
+  #scan-btn {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #scan-btn:hover {
+    background: #45a049;
+  }
+  
+  .log-panel {
+    margin-top: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 12px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
